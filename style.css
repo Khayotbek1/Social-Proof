@@ -194,7 +194,7 @@ body {
     transform: translateY(40px);
 }
 
-@media (width: 375px){
+@media (width: 400px){
     .main-container{
         display: flex;
         flex-direction: column;
