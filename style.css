@@ -54,6 +54,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'League Spartan', sans-serif;
+    background: url('./main-bg.svg') no-repeat;
+    background-position: bottom right;
 } 
 
 .container {
@@ -65,8 +67,7 @@ body {
     padding-right: 30px;
 }
 .main{
-    background: url('./main-bg.svg') no-repeat;
-    background-position: bottom right;
+    flex-grow: 1;
 }
 
 .main-container{
@@ -96,8 +97,7 @@ body {
     color: #927B91;
 }
 .main-stars{
-    display: flex;
-    flex-direction: column;
+    
 }
 .main-stars ul{
     display: flex;
